@@ -1,0 +1,260 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:6:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:6:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#getui.permission.GetuiService.com.getui.demo
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+permission#getui.permission.GetuiService.com.getui.demo
+ADDED from AndroidManifest.xml:30:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:32:9
+	android:name
+		ADDED from AndroidManifest.xml:31:9
+application
+ADDED from AndroidManifest.xml:37:5
+	android:label
+		ADDED from AndroidManifest.xml:39:9
+	android:icon
+		ADDED from AndroidManifest.xml:38:9
+	android:persistent
+		ADDED from AndroidManifest.xml:40:9
+activity#com.getui.demo.GetuiSdkDemoActivity
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:46:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:47:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:50:17
+	android:name
+		ADDED from AndroidManifest.xml:50:27
+meta-data#PUSH_APPID
+ADDED from AndroidManifest.xml:58:9
+	android:name
+		ADDED from AndroidManifest.xml:59:13
+	android:value
+		ADDED from AndroidManifest.xml:60:13
+meta-data#PUSH_APPKEY
+ADDED from AndroidManifest.xml:61:9
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+	android:value
+		ADDED from AndroidManifest.xml:63:13
+meta-data#PUSH_APPSECRET
+ADDED from AndroidManifest.xml:64:9
+	android:name
+		ADDED from AndroidManifest.xml:65:13
+	android:value
+		ADDED from AndroidManifest.xml:66:13
+meta-data#PUSH_GROUPID
+ADDED from AndroidManifest.xml:67:9
+	android:name
+		ADDED from AndroidManifest.xml:68:13
+	android:value
+		ADDED from AndroidManifest.xml:69:13
+receiver#com.getui.demo.PushDemoReceiver
+ADDED from AndroidManifest.xml:72:9
+	android:exported
+		ADDED from AndroidManifest.xml:74:13
+	android:name
+		ADDED from AndroidManifest.xml:73:13
+intent-filter#com.igexin.sdk.action.etVyv7RHJ28BqN3KKCtKJ6
+ADDED from AndroidManifest.xml:75:13
+action#com.igexin.sdk.action.etVyv7RHJ28BqN3KKCtKJ6
+ADDED from AndroidManifest.xml:76:17
+	android:name
+		ADDED from AndroidManifest.xml:76:25
+service#com.igexin.sdk.PushService
+ADDED from AndroidManifest.xml:81:9
+	android:label
+		ADDED from AndroidManifest.xml:84:13
+	android:process
+		ADDED from AndroidManifest.xml:85:13
+	android:exported
+		ADDED from AndroidManifest.xml:83:13
+	android:name
+		ADDED from AndroidManifest.xml:82:13
+receiver#com.igexin.sdk.PushReceiver
+ADDED from AndroidManifest.xml:88:9
+	android:name
+		ADDED from AndroidManifest.xml:88:19
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.igexin.sdk.action.refreshls
+ADDED from AndroidManifest.xml:89:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:90:17
+	android:name
+		ADDED from AndroidManifest.xml:90:25
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:91:17
+	android:name
+		ADDED from AndroidManifest.xml:91:25
+action#android.intent.action.USER_PRESENT
+ADDED from AndroidManifest.xml:92:17
+	android:name
+		ADDED from AndroidManifest.xml:92:25
+action#com.igexin.sdk.action.refreshls
+ADDED from AndroidManifest.xml:93:17
+	android:name
+		ADDED from AndroidManifest.xml:93:25
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from AndroidManifest.xml:95:17
+	android:name
+		ADDED from AndroidManifest.xml:95:25
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from AndroidManifest.xml:96:17
+	android:name
+		ADDED from AndroidManifest.xml:96:25
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from AndroidManifest.xml:97:17
+	android:name
+		ADDED from AndroidManifest.xml:97:25
+receiver#com.igexin.sdk.PushManagerReceiver
+ADDED from AndroidManifest.xml:109:9
+	android:exported
+		ADDED from AndroidManifest.xml:111:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+intent-filter#com.igexin.sdk.action.pushmanager
+ADDED from AndroidManifest.xml:112:13
+action#com.igexin.sdk.action.pushmanager
+ADDED from AndroidManifest.xml:113:17
+	android:name
+		ADDED from AndroidManifest.xml:113:25
+activity#com.igexin.sdk.PushActivity
+ADDED from AndroidManifest.xml:117:9
+	android:theme
+		ADDED from AndroidManifest.xml:123:13
+	android:process
+		ADDED from AndroidManifest.xml:121:13
+	android:exported
+		ADDED from AndroidManifest.xml:120:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:119:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:122:13
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+service#com.igexin.download.DownloadService
+ADDED from AndroidManifest.xml:126:9
+	android:process
+		ADDED from AndroidManifest.xml:128:13
+	android:name
+		ADDED from AndroidManifest.xml:127:13
+receiver#com.igexin.download.DownloadReceiver
+ADDED from AndroidManifest.xml:130:9
+	android:name
+		ADDED from AndroidManifest.xml:130:19
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:131:13
+provider#com.igexin.download.DownloadProvider
+ADDED from AndroidManifest.xml:136:9
+	android:process
+		ADDED from AndroidManifest.xml:139:13
+	android:authorities
+		ADDED from AndroidManifest.xml:138:13
+	android:name
+		ADDED from AndroidManifest.xml:137:13
+activity#com.igexin.getuiext.activity.GetuiExtActivity
+ADDED from AndroidManifest.xml:142:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:144:13
+	android:theme
+		ADDED from AndroidManifest.xml:149:13
+	android:process
+		ADDED from AndroidManifest.xml:147:13
+	android:exported
+		ADDED from AndroidManifest.xml:146:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:145:13
+	android:taskAffinity
+		ADDED from AndroidManifest.xml:148:13
+	android:name
+		ADDED from AndroidManifest.xml:143:13
+receiver#com.igexin.getuiext.service.PayloadReceiver
+ADDED from AndroidManifest.xml:151:9
+	android:exported
+		ADDED from AndroidManifest.xml:153:13
+	android:name
+		ADDED from AndroidManifest.xml:152:13
+intent-filter#com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4+com.igexin.sdk.action.etVyv7RHJ28BqN3KKCtKJ6
+ADDED from AndroidManifest.xml:154:13
+action#com.igexin.sdk.action.7fjUl2Z3LH6xYy7NQK4ni4
+ADDED from AndroidManifest.xml:157:17
+	android:name
+		ADDED from AndroidManifest.xml:157:25
+service#com.igexin.getuiext.service.GetuiExtService
+ADDED from AndroidManifest.xml:163:9
+	android:process
+		ADDED from AndroidManifest.xml:165:13
+	android:name
+		ADDED from AndroidManifest.xml:164:13

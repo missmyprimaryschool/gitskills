@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\n551\Desktop\NIM_Android_Demo_v1.2.0\Getui_SDK_Demo_official\app\libs\json_simple-1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="C:\Users\n551\Desktop\NIM_Android_Demo_v1.2.0\Getui_SDK_Demo_official\app\build\intermediates\pre-dexed\debug\json_simple-1.1-a740e306a6f40b7e97cef77626c70c93f2b8341d.jar" />
+    </item>
+    <item
+        jar="D:\Android\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\n551\Desktop\NIM_Android_Demo_v1.2.0\Getui_SDK_Demo_official\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-7017af344377ec1227c7a1d027cd940a9e2fe5c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\n551\Desktop\NIM_Android_Demo_v1.2.0\Getui_SDK_Demo_official\app\libs\GetuiExt-2.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7825bfa9135d693e2046eab96fd94e724e0f9eda">
+        <dex dex="C:\Users\n551\Desktop\NIM_Android_Demo_v1.2.0\Getui_SDK_Demo_official\app\build\intermediates\pre-dexed\debug\GetuiExt-2.0.3-1bfc41ed3b6a69348416784aae3b1ee88af949d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\n551\Desktop\NIM_Android_Demo_v1.2.0\Getui_SDK_Demo_official\app\libs\GetuiSdk2.5.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="662a392693d1c2b781c336cd4131883ec829884c">
+        <dex dex="C:\Users\n551\Desktop\NIM_Android_Demo_v1.2.0\Getui_SDK_Demo_official\app\build\intermediates\pre-dexed\debug\GetuiSdk2.5.0.0-f2ade288bf0432fe3abe112742d85c1026c56dde.jar" />
+    </item>
+
+</items>
